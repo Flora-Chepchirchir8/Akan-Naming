@@ -18,8 +18,12 @@ body{
 .header{
     display: flex;
     padding-left: 8%;
-    padding-top: 3%;
+    padding-top: 5%;
 }
 .header h2{
     margin-left:30% ;
+}
+.description{
+    margin-top: 15%;
+
 }
