@@ -6,7 +6,7 @@
 body{
     background-image: url("image2.webp") ;
     background-repeat: no-repeat;
-    background-size:100% 100%;
+  
     background-size: cover;
     background-position: center;
     height: 1200px;
@@ -34,7 +34,7 @@ body{
 
 form{
   
-
+    width: 30%;
     margin-left: 30%;
    
 }  
@@ -42,5 +42,10 @@ form{
     margin-left: 30%;
 }
 .overlay{
-    
+    background-color: rgb(0,0,0,0.5);
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.container{
+    color: white;
 }
