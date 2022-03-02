@@ -10,14 +10,62 @@
 </head>
 <body>
  <div class="header">
-<h1 style="color: #09dd02;">AKAN NAMING</h1>
+<h1 style="color: #09dd02;">AKAN NAMING</h1><br>
 <h2 style="color: white;"> Welcome to <span style="color:#09dd02 ;">Akan</span> Naming</h2>
 
  </div>
+ 
+ 
+ 
  <div class="description">
+     <div class="desc">
      <h2 style="color: white;"><hr>Akan Naming means </hr></h2>
-     <p style="color: white;">Akan names come from a traditional naming system <br>for people from countries such as Togo, Ivory Coast and Ghana.
+     <p style="color: white; font-size: 20px;" >Akan names come from a traditional naming system <br>for people from countries such as Togo, Ivory Coast and Ghana.
       <br> A child’s name is determined by factors surrounding<br> his or her birth. For example, the day of their birth or<br> the manner in which they were born may determine which name <br>they get irrespective of their gender.</p>
+    </div>
+   
+    <img src="naming.jpg" alt="" height="320px"> 
+
+ </div>
+ <div class="card">
+
+    <div class="overlay">
+        <div class="container">
+          <h2>Enter Your Details Here!</h2>
+          <form name="myForm" class="form" onsubmit="validate();">
+            <div class="form-group">
+              <label for="number">Year of Birth:</label>
+              <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+            </div>
+            <div class="form-group">
+              <label for="month">Month of Birth:</label>
+              <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Birth:</label>
+              <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+            </div>
+            <div class="form-group">
+              <label for="month">Gender</label><br>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+            <br>
+          </form>
+          <p id="results"> </p>
+        </div>
+    </div>
+
+
 
 
 
@@ -26,6 +74,8 @@
 
 
 
-    
+
+
+    <script src="javascript/script.js"></script>
 </body>
 </html>
