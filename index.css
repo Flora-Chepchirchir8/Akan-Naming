@@ -9,7 +9,7 @@ body{
   
     background-size: cover;
     background-position: center;
-    height: 1200px;
+    height: 1350px;
 }
 .header{
     
@@ -21,20 +21,22 @@ body{
 }
 
 .description{
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
-    padding-left: 5%;
+    padding-left: 3%;
 
 }
 .description img{
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
   
 }
 
 
 form{
   
-    width: 30%;
+    width: 50%;
     margin-left: 30%;
    
 }  
@@ -46,6 +48,9 @@ form{
     background-color: rgb(0,0,0,0.5);
     opacity: 0.5;
     border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
 }
 .container{
      color: white;
