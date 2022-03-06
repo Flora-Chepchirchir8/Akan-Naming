@@ -76,27 +76,4 @@ function findName(){
         alert("The input should not be null")
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
 }
