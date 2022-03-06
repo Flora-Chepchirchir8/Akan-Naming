@@ -20,8 +20,8 @@
  
  <div class="description">
      <div class="desc">
-     <h2 style="color: white;"><hr>Akan Naming means </hr></h2>
-     <p style="color: white; font-size: 20px;" >Akan names come from a traditional naming system <br>for people from countries such as Togo, Ivory Coast and Ghana.
+        <h2 style="color: white;"><hr>Akan Naming means </hr></h2>
+        <p style="color: white; font-size: 20px;" >Akan names come from a traditional naming system <br>for people from countries such as Togo, Ivory Coast and Ghana.
       <br> A child’s name is determined by factors surrounding<br> his or her birth. For example, the day of their birth or<br> the manner in which they were born may determine which name <br>they get irrespective of their gender.</p>
     </div>
    
@@ -29,52 +29,54 @@
 
  </div>
  
-
+ 
     <div class="overlay">
         <div class="container">
-          <h2>Enter Your Details Here!</h2>
-          <form name="myForm" class="form" onsubmit="validate();">
-            <div class="form-group">
+                <h2>Enter Your Details Here!</h2>
+                         <form >
+                    <div class="form-group">
               <label for="number">Year of Birth:</label>
-              <input type="number" class="form-control" id="year" placeholder="Year of Birth " name="year">
+                    <input type="text" class="form-control" id="year" placeholder="Year of Birth " name="year">
+                      </div>
+                 <div class="form-group">
+            <label for="month">Month of Birth:</label>
+              <input type="text" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                          </div>
+                       <div class="form-group">
+                  <label for="date">Date of Birth:</label>
+              <input type="text" class="form-control" id="date" placeholder="Date of Birth " name="date">
             </div>
-            <div class="form-group">
-              <label for="month">Month of Birth:</label>
-              <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
-            </div>
-            <div class="form-group">
-              <label for="date">Date of Birth:</label>
-              <input type="number" class="form-control" id="date" placeholder="Date of Birth " name="date">
-            </div>
-            <div class="form-group">
-              <label for="month">Gender</label><br>
-              <div class="form-check-inline">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                     <div class="form-group">
+                      
+                         <!-- <label for="month">Gender</label><br> -->
+                               <div class="form-check-inline"> 
+
+                 <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="gender" id="gender" value="male" checked>&nbsp; Male
                 </label>
               </div>
               <div class="form-check-inline">
                 <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                  <input type="radio" class="form-check-input" name="gender" id="gender" value="female" >&nbsp; Female 
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                 <input type="submit" class="btn btn-primary" onclick="findName()" value="Get Name">
             <br>
           </form>
-          <p id="results"> </p>
-        </div>
-    </div>
+          <!-- <p id="results"> </p> -->
+              </div>
+          </div>
      <div class="last">
-    <p style="font-size: 30px;"><span style="color: rgb(255, 0, 98);">A</span> <span style="color: rgb(34, 226, 34);">K</span> <span style="color: rgb(47, 173, 204);">A</span><span style="color: rgb(247, 141, 3);">N</span></p>
-  </div>
-    <div class="footer">
-      <p>Copyright © 2021:Flora Chepchirchir</p>
+     <p style="font-size: 30px;"><span style="color: rgb(255, 0, 98);">A</span> <span style="color: rgb(34, 226, 34);">K</span> <span style="color: rgb(47, 173, 204);">A</span><span style="color: rgb(247, 141, 3);">N</span></p>
+         </div>
+      <div class="footer">
+    <p>Copyright © 2021:Flora Chepchirchir</p>
 
 
     </div>
     
-  <script src="javascript/script.js"></script>
+  <script src="script.js"></script>
   
 </body>
 </html>
